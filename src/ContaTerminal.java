@@ -18,10 +18,10 @@ public class ContaTerminal {
         String Nome = sc.next();
 
          
-         System.out.println("Ola! "+Nome + "  Obrigado por cria uma conta em nosso Banco, sua Agencia:  "+Agencia+ "  Conta:  "+Conta+ "  Seu Saldo é 0  "
+        System.out.println("Ola! "+Nome + "  Obrigado por cria uma conta em nosso Banco, sua Agencia:  "+Agencia+ "  Conta:  "+Conta+ "  Seu Saldo é 0  "
           );
-         double Saldo = 0;
-         Saldo = sc.nextDouble();
+        double Saldo = 0;
+        Saldo = sc.nextDouble();
 
          sc.close();
 
